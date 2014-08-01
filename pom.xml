@@ -54,8 +54,6 @@
                         <configuration>
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>shaded</shadedClassifierName>
-                        </configuration>
-                        <configuration>
                             <artifactSet>
                                 <includes>
                                     <include>org.ocpsoft.prettytime:prettytime</include>
