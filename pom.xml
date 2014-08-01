@@ -19,6 +19,18 @@
         <prettytime-version>3.2.5.Final</prettytime-version>
     </properties>
 
+    <!-- Declare my repositories -->
+    <repositories>
+        <repository>
+            <id>my-repo</id>
+            <url>http://repository.james.richardson.name/releases</url>
+        </repository>
+        <repository>
+            <id>my-snapshot-repo</id>
+            <url>http://repository.james.richardson.name/snapshots</url>
+        </repository>
+    </repositories>
+
     <!-- Declare dependencies -->
     <dependencies>
         <dependency>
