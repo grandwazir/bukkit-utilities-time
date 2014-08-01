@@ -44,14 +44,14 @@ public class ApproximateTimeFormatter extends AbstractTimeFormatter {
 	 * @return the time as a human readable duration.
 	 */
 	@Override
-	public String getHumanReadableDuration(long time) {
+	public final String getHumanReadableDuration(long time) {
 		Date date = new Date(time);
 		return timeFormatter.format(date);
 	}
 
 	@Override
 	public String toString() {
-		final StringBuilder sb = new StringBuilder("ApproximateTimeFormatter{");
+		StringBuilder sb = new StringBuilder("ApproximateTimeFormatter{");
 		sb.append("timeFormatter=").append(timeFormatter);
 		sb.append(", ").append(super.toString());
 		sb.append('}');

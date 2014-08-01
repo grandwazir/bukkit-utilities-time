@@ -34,7 +34,7 @@ public class PreciseDurationTimeFormatter extends AbstractTimeFormatter {
 	 * @return the string representing the number of milliseconds in a human readable format.
 	 */
 	@Override
-	public String getHumanReadableDuration(long time) {
+	public final String getHumanReadableDuration(long time) {
 		// This is a bit of a hack so it only works with the english language
 		PrettyTime formatter = new PrettyTime();
 		formatter.removeUnit(JustNow.class);

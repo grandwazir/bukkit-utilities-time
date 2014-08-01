@@ -48,7 +48,7 @@ public abstract class AbstractTimeFormatter implements TimeFormatter {
 
 	@Override
 	public String toString() {
-		final StringBuilder sb = new StringBuilder("AbstractTimeFormatter{");
+		StringBuilder sb = new StringBuilder("AbstractTimeFormatter{");
 		sb.append("inputFormatter=").append(inputFormatter);
 		sb.append('}');
 		return sb.toString();
@@ -63,6 +63,7 @@ public abstract class AbstractTimeFormatter implements TimeFormatter {
 	 * @param timeString the string to parse.
 	 * @return the number of milliseconds represented by the String.
 	 */
+	@Override
 	public final long getDurationInMilliseconds(String timeString) {
 		long duration = 0;
 		if (timeString != null) {
