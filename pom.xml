@@ -13,20 +13,11 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>BukkitUtilities (Time)</name>
     <url>http://grandwazir.github.com/${project.name}/</url>
-    <description>A utility library containing reusable classes and implementations around manipulating times and dates.</description>
+    <description>A utility library containing reusable classes and implementations for manipulating times and dates.</description>
 
     <properties>
         <prettytime-version>3.2.5.Final</prettytime-version>
     </properties>
-
-    <!-- Declare additional repositories -->
-    <repositories>
-        <!-- Bukkit can be found at the following repository -->
-        <repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public/</url>
-        </repository>
-    </repositories>
 
     <!-- Declare dependencies -->
     <dependencies>
